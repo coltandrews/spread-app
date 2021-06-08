@@ -1,5 +1,5 @@
 import express from 'express'
-import {TeamController} from '../controller/team'
+import {TeamController} from '../controller/controller.team'
 
 const TeamRouter = express.Router()
 const tc = new TeamController()
